@@ -1,0 +1,71 @@
+.album {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.albumImage {
+	width: 110px;
+  padding: 0px 35px 0 40px;
+ 	margin: 0;
+  border-right: 1.5px solid #eee;
+  margin-top: 20px;
+  min-width: 110px;
+}
+.albumImage > img {
+	width: 100%;
+}
+.albumDetail {
+  width: 100%;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.albumDetailHeader {
+  border-bottom: 1.5px solid #eee;
+  margin: auto;
+  margin-top: 0;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+.albumDetailHeader > p{
+  margin: auto;
+  color: #bbb;
+}
+.albumDetailHeader > h1 {
+  margin: auto;
+  color: CornflowerBlue;
+}
+
+
+@media (max-width: 768px) {
+	.album {
+  	width: 100%;
+    display: block;
+    text-align: center;
+ 	}
+  .albumDetail {
+    padding: 0;
+  }
+  .albumImage {
+    border-right: none;
+    min-width: 110px;
+    margin: auto;
+    margin-top: 25px;
+    display: inline-block;
+  }
+  .albumDetailHeader {
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+    border: none;
+    padding: 0;
+  }
+  .albumDetailHeader > p, .albumDetailHeader > h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .show_only_Web {
+    display: none;
+  }
+}

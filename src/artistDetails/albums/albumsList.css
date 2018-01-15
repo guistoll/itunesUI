@@ -1,0 +1,36 @@
+.albumList{
+  	width: 55%;
+  	margin: auto;
+  	margin-top: 50px;
+}
+.footer_pagination{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  	.albumList {
+    	width: 100%;
+    	margin-top: 25px;
+    	margin-bottom: 10px;
+ 	}
+ 	.footer_pagination {
+  		font-size: 40px;
+  		margin-bottom: 30px;
+  		color: #909090;
+  		text-align: center;
+      display: block;
+  	}
+  	.footer_pagination > span {
+ 		padding: 8px;
+ 		margin: 0 8px 0 8px;
+ 		background-color: white;
+ 		border: 1px solid #ddd;
+ 		width: 35px;
+ 		height: 35px;
+ 		text-align: center !important;
+  	}
+  	.fa {
+  		text-align: center !important;
+  		font-weight: 2px !important;
+  	}
+}
