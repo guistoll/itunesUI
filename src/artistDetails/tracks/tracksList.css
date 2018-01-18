@@ -21,6 +21,8 @@
 @media (max-width: 768px) {
 	.tracksList > ul > li {
 		text-align: left;
+		font-size: 12px;
+		font-family: "Helvetica";
 		padding: 18px 0 18px 0;
 	}
 	.tracksList > ul > li > p {
