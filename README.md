@@ -1,18 +1,18 @@
-## Requisitos:
+## Requisites:
 
 - Node 6.11.x
 
 
-## Instruções:
+## How to run:
 
 	$ npm install
 	$ npm start
 
-### Build de produção:
+### Production build:
 
 	$ npm run build 
 
-Este comando vai gerar todos os arquivos de produção no diretório `/build`.
-Pode ser usado de qualquer servidor local.
+This command will generate all production files in `/build` directory.
+Can be used in any local server.
 
-Ex: `http://localhost/meuprojeto/build`
+Example: `http://localhost/myproject/build`
