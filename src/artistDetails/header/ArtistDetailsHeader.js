@@ -4,12 +4,12 @@ import style from './artistDetailsHeader.css';
 
 export default class ArtistDetailsHeader extends React.Component{
 	render() {
-		const tabNames = ["ALBUNS", "ARTISTAS", "PLAYLISTS"];
+		const tabNames = ["albuns", "artists", "playlists"];
 
 		// TODO: Abas controladas por estado
 		const tabs = tabNames.map((menu, index) =>
 		  	<li className={index === 0 ? style.selected : style.icons_web} key={index}>
-		  		{menu}
+		  		<a href={menu}>{menu}</a>
 		  	</li>
 		);
 

@@ -2,51 +2,64 @@
   margin: auto;
 }
 body {
+  background-color: #eee;
   font-family: "Helvetica";
   font-size: 12px;
-  background-color: #eee;
   margin: 0;
 }
 .artist_detail_header {
   background-color: white;
-  width: 70%;
   margin: auto;
+  width: 70%;
 }
 .artist_detail_content {
   margin: 0 0 0 5.5vw;
 }
 .artist_image {
-  width: 100px;
-  height: 100px;
   display: inline-flex;
+  height: 100px;
   padding: 20px 0 35px 40px;
+  width: 100px;
 }
 .artist_image > img {
   border-radius: 50%;
   width: 100%;
 }
 .artist_image > p {
-  white-space: nowrap;
-  margin: auto;
-  font-size: 25px;
   font-family: "Helvetica";
+  font-size: 25px;
   margin-left: 1vw;
+  margin: auto;
+  white-space: nowrap;
 }
 .icons_web {
-  margin: auto;
-  margin-right: 2vw;
   font-size: 2em;
+  margin-right: 2vw;
+  margin: auto;
 }
 .menu_select > ul {
-  list-style-type: none;
-  font-family: "Helvetica";
   display: inline-flex;
+  font-family: "Helvetica";
+  list-style-type: none;
   margin: 0;
 }
 .menu_select > ul > li {
-  margin: 0 50px 0 0 ;
-  padding: 0px 17px 5px 17px;
   font-size: 14px;
+  margin: 0 50px 0 0 ;
+  padding-bottom: 5px;
+}
+.menu_select > ul > li > a {
+  border-bottom: 4px solid transparent;
+  color: black;
+  opacity: 1;
+  padding: 0px 17px 5px 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.menu_select > ul > li > a:hover {
+  border-bottom: 4px solid limegreen;
+  opacity: 0.7;
 }
 .menu_select > ul > li.selected {
   border-bottom: 4px solid limegreen;
@@ -63,9 +76,9 @@ body {
     margin: 0 !important;
   }
   .artist_image {
-    width: 70px !important;
     height: 70px !important;
     padding: 20px 0 25px 15px !important;
+    width: 70px !important;
   }
   .icons_web {
     display: none;
@@ -83,8 +96,8 @@ body {
     padding: 10px 10px 10px 20px !important	;
   }
   .icons_phone {
+    color: #aaa !important;
     display: inline-flex !important;
     margin: auto;
-    color: #aaa !important;
   }
 }
